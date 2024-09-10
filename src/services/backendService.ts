@@ -3,7 +3,7 @@ import { IWordSpelling } from "../interfaces/wordInterfaces";
 import { getToken } from "../utils/getToken";
 
 const api = axios.create({
-  baseURL: "https://transcripton-1730885afe9f.herokuapp.com/custom-word",
+  baseURL: "https://blendon-transcripton-backend.coqgvu.easypanel.host/custom-word",
 });
 
 
